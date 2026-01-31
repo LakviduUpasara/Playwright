@@ -6,7 +6,7 @@ test.beforeEach(async ({ page }) => {
   await page.goto(URL);
 });
 
-// Helper to get the Singlish input box
+
 async function getInput(page: any) {
   return page.getByRole('textbox', {
     name: 'Input Your Singlish Text Here.',

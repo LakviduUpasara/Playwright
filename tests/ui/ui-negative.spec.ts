@@ -12,7 +12,7 @@ async function getInput(page: any) {
   });
 }
 
-// Negative UI test Case 
+ 
 
 test('Neg_UI_0001 - Empty input does not break UI', async ({ page }) => {
   const input = await getInput(page);
